@@ -7,7 +7,7 @@ Module: math_operations
 
 import math
 
-def floor(x: float) -> int:
+def floor(n: float) -> int:
     """
     Function: floor()
 
@@ -22,4 +22,4 @@ def floor(x: float) -> int:
     Return Type:
     int: The largest integer that is less than or equal to 'x'.
     """
-    return math.floor(x)
+    return math.floor(n)

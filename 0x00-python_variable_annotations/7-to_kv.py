@@ -3,9 +3,11 @@
     Function: to_kv()
 
 """
+from typing import Union, Tuple
 
 
-def to_kv(k: str, v: int | float) -> tuple:
+
+def to_kv(k: str, v: int | float) -> Tuple:
     """
     Function: to_kv()
 

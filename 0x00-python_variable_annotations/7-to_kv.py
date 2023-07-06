@@ -7,7 +7,7 @@ from typing import Union, Tuple
 
 
 
-def to_kv(k: str, v: int | float) -> Tuple:
+def to_kv(k: str, v: union[int, float]) -> Tuple[str, float]:
     """
     Function: to_kv()
 
@@ -22,4 +22,4 @@ def to_kv(k: str, v: int | float) -> Tuple:
     tuple: A tuple containing the key-value pair.
     """
 
-    return (k, v)
+    return (k, v * v)

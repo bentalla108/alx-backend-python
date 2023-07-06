@@ -1,15 +1,7 @@
 #!/usr/bin/env python3
-
 """
 Module: math_operations
 
-Description:
-This module provides various mathematical operations
-including the 'floor' function.
-
-Functions:
-- floor(x: float) -> int: Returns the largest integer
-that is less than or equal to 'x'.
 """
 
 

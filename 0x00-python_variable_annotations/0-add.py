@@ -3,14 +3,8 @@
 """
 Module: add
 
-Description:
-This module provides the 'add' function to
-perform addition of two floating-point numbers.
-
-Functions:
-- add(a: float, b: float) -> float: Returns the
-sum of two floating-point numbers.
 """
+
 
 def add(a: float, b: float) -> float:
     """

@@ -9,6 +9,8 @@ import asyncio
 import random
 
 async def wait_random(max_delay=10):
+
+    
     """
     Asynchronous function that generates a random
     delay and waits for that duration.
